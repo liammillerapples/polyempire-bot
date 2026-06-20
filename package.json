@@ -1,0 +1,31 @@
+{
+  "name": "polyempire-bot",
+  "version": "1.0.0",
+  "description": "PolyEmpire - Polymarket Telegram Trading Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "polymarket",
+    "telegram",
+    "trading",
+    "bot",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0",
+    "telegraf": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
